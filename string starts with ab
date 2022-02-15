@@ -1,0 +1,16 @@
+//TO CHEcK WHETHER THE STRING STARTS WITH ab or not
+
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+	char s[100]; int i;
+
+	printf("Please Enter your string :\n");
+	scanf("%s", &s);
+	if((s[0]=='a') && (s[1]=='b'))	
+	printf("Yes, string starts with ab");
+	else
+	printf("No, string doesnt start with ab");
+	
+}
